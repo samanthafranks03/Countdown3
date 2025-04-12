@@ -2,6 +2,7 @@ import React from 'react'
 import {TextField, Button} from '@mui/material';
 
 function Input(){
+    const API_KEY = import.meta.env.VITE_API_KEY;
     //Allow user to type in address, city name, state, and zipcode
     return (
         <>
